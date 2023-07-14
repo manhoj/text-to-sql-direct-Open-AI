@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Input Page</title>
+    <style>
+      /* CSS styles */
+      .input-textbox {
+        width: 80%;
+        height: 100px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/form-submit/" method="post">
+      <input type="text" name="input_data" class="input-textbox" placeholder="Enter your query" required>
+      <button type="submit" name="button" formaction="/nlp-text/" value="button1">Generate SQL</button>
+      <button type="submit" name="button" formaction="/nlp-text/" value="button2">Execute in MMDB</button>
+   
+  </body>
+</html>
